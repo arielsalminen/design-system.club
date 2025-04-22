@@ -22,9 +22,7 @@ If you choose to participate in this webring, you agree to not discriminate base
 
 Discrimination is not limited to the preceding list. The list serves as an example of the kinds of criteria we take into consideration when considering what constitutes discrimination.
 
-### Overlays, closed platforms, and inaccessible sites
-
-Overlay companies and overlay company employees are specifically not allowed to participate.
+### Closed platforms
 
 Sites that own your content such as Medium or Facebook cannot be used as a website for the webring.
 
