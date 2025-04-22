@@ -20,11 +20,7 @@
   }
 
   &__memberlist {
-    max-height: 150px;
     border: 1px solid $gray-lighter;
-
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
   }
 
   &__member {
