@@ -1,9 +1,5 @@
 [
   {
-    "title": "Kevin Muldoon",
-    "url": "https://muldoon.design/"
-  },
-  {
     "title": "Ariel Salminen",
     "url": "https://arielsalminen.com/"
   },
@@ -26,5 +22,9 @@
   {
     "title": "David Umoru",
     "url": "https://davidumoru.me/"
+  },
+  {
+    "title": "Kevin Muldoon",
+    "url": "https://muldoon.design/"
   }
 ]
