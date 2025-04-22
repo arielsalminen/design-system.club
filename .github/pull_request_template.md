@@ -9,7 +9,7 @@ Example:
 
 ```json
 {
-  "title": "Arielle's awesome site",
-  "url": "https://www.arielles-awesome-site.org"
+  "title": "Ariel Salminen",
+  "url": "https://arielsalminen.com"
 }
 ```
