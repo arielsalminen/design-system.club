@@ -4,8 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="fediverse:creator" content="@ariel@front-end.social" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:width" content="1200" />
+    <meta name="theme-color" content="#231f20" />
+    <meta property="og:site_name" content="{{ title or meta.title }}" />
+    <meta name="twitter:site" content="@arielsalminen" />
+    <meta name="twitter:creator" content="@arielsalminen" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="title" property="og:title" content="{{ title or meta.title }}" />
+    <meta name="twitter:title" content="{{ title or meta.title }}" />
+    <meta name="generator" content="{{ eleventy.generator }}" />
+    <meta name="twitter:image" content="https://design-system.club/assets/images/social.png" />
+    <meta name="image" property="og:image" content="https://design-system.club/assets/images/social.png" />
+    <meta property="og:image:secure_url" content="https://design-system.club/assets/images/social.png" />
+    <meta property="og:description" content="Design Systems Webring is a human-curated list of websites dedicated to people interested in design systems." />
+    <meta name="description" content="Design Systems Webring is a human-curated list of websites dedicated to people interested in design systems." />
+    <meta name="twitter:description" content="Design Systems Webring is a human-curated list of websites dedicated to people interested in design systems." />
     <title>{{ title or meta.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <link rel="image_src" href="https://design-system.club/assets/images/social.png" />
+    <link rel="image_src" href="https://design-system.club/assets/images/social.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div class="layout">

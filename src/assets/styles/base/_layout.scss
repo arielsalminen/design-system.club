@@ -18,13 +18,13 @@ body {
   min-height: 100%;
   min-height: 100vh;
   position: relative;
-  overflow-x: hidden;
+  z-index: 2;
 
   &__primary {
     flex: 1 0 auto;
     padding: 1rem;
     background-color: #fff;
-    box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.12);
+    box-shadow: 0 2px 40px 0 rgba(14, 30, 37, 0.22);
   }
 
   &__secondary {
@@ -50,7 +50,6 @@ body {
 
     &__primary {
       padding: 2rem;
-      border-right: 1px solid $gray-lighter;
     }
 
     &__secondary {
@@ -59,6 +58,7 @@ body {
       left: 50%;
       bottom: 0;
       right: 0;
+      z-index: 1;
     }
   }
 }
